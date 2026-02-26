@@ -9,8 +9,8 @@ draw = function(){
   fill(0, 0, 0);
   ellipse(200, 200, 375, 375);
   fill(60, 0, 255);
-  triangle(200, 104, 280, 280, 120, 280);
-  if(mouseY > 200 && mousePressed){
+  triangle(200, 104, 280, 280, 120, 280); // my base
+  if(mouseY > 200 && mousePressed){ //my random
   stroke(0);
   fill(random(255), random(255), random(255));
   triangle(200, 104, 280, 280, 120, 280);
